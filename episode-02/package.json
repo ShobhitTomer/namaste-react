@@ -1,0 +1,17 @@
+{
+  "name": "episode-02",
+  "version": "1.0.0",
+  "description": "This is episode 2",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Shobhit Tomer",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
