@@ -1,8 +1,10 @@
 {
-  "name": "episode-02",
+  "name": "namastereact",
   "version": "1.0.0",
-  "description": "This is episode 2",
+  "description": "This is my react project",
   "scripts": {
+    "start" : "parcel index.html",
+    "build" : "parcel build index.html",
     "test": "jest"
   },
   "keywords": [
