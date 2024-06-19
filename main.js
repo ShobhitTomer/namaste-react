@@ -7,6 +7,8 @@ const heading = React.createElement(
   "Shobhit is Here 🚀"
 );
 
+const jsxHeading = <h1>Shobhit is here using JSX🚀</h1>;
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(heading);
+root.render(jsxHeading);

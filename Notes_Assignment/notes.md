@@ -34,6 +34,7 @@ To use the import and export command we have to tell the browser that this is no
 - `Parcel`
 - `Vite`
 - `React`
+- `Babel`
 
 # Notes For Episode 3
 
@@ -43,4 +44,10 @@ To use the import and export command we have to tell the browser that this is no
 
 - to run the script we use `npm run {scritpt name}`, through this command we can run our script. We can also write `npm start` to do `npm run start` but this happens only with start as this is reserved by npm.
 
-- The react element is a object and when we render it it becomes a DOM element.
+- The react element is a object and when we render it it becomes a DOM element. The core of react elements is created using createElement but it is not very developer friendly! to counter this the engineers at facebook made `JSX`.
+
+- JSX is not a part of React, we can build react applications without jsx also but JSX makes our life easier. `JSX is not html in Javascript`, JSX is a HTML-like or XML-like syntax
+
+#### Whenever we write code we first write it for humans and then machine, So make it such that!
+
+- Our browsers do not understand the JSX code so how does it render the code? The JSX code is transpiled before it reaches the JS engine - The code is being transpiled(Compiled) by Babel - Managed by Parcel
