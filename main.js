@@ -16,13 +16,11 @@ const HeadingComponent = () => (
   </div>
 );
 
-const Footer = () => {
-  return (
-    <div id="footer">
-      <h3>This is a footer to help</h3>
-    </div>
-  );
-};
+const Footer = () => (
+  <div id="footer">
+    <h3>This is a footer to help</h3>
+  </div>
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

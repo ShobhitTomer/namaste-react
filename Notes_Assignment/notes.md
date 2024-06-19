@@ -60,6 +60,8 @@ To use the import and export command we have to tell the browser that this is no
 
 - Everything in react is a component! There are two types of components in react 1. Class based components and 2. Functional components. Class based component is the old way of writing code - uses javascript classes and Functional component is new way of writing code - uses javascript functions to create components.
 
-- A React Functional Component is a javascript function which returns JSX. We can also say that its a javascript function which returns a react element. The first letter of name of the component should always be capital. To render a component we need to wrap it in angular brackets like `<HeadingComponent/>`.
+- A React Functional Component is a javascript function which returns JSX. We can also say that its a javascript function which returns a react element. The first letter of name of the component should always be capital. To render a component we need to wrap it in angular brackets like `<HeadingComponent/>`. We can also use normal functions to do the same thing but the arrow functions are now a industry standard.
 
-- When we put a component inside a component it is called component composition and can be achieved by how we render a component.
+- When we put a component inside a component it is called component composition and can be achieved by how we render a component. When we are writing JSX we can write any piece of javascript code inside by using `{} Curly Braces`.
+
+- JSX automatically sanitizes the code that is run inside the curly braces preventing XSS(Cross site scripting attacks).
