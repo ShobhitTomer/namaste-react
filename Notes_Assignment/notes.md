@@ -50,4 +50,16 @@ To use the import and export command we have to tell the browser that this is no
 
 #### Whenever we write code we first write it for humans and then machine, So make it such that!
 
-- Our browsers do not understand the JSX code so how does it render the code? The JSX code is transpiled before it reaches the JS engine - The code is being transpiled(Compiled) by Babel - Managed by Parcel
+- Our browsers do not understand the JSX code so how does it render the code? The JSX code is transpiled before it reaches the JS engine - The code is being transpiled(Compiled) by Babel - Managed by Parcel.
+
+- First JSX is converted to react element by Babel and then the react element is rendered to a HTML element.
+
+- If we have to give attributes to our element then we will have to use camelCase. If we are writing in multiple lines then we will have to wrap it in parenthesis.
+
+#### React Component
+
+- Everything in react is a component! There are two types of components in react 1. Class based components and 2. Functional components. Class based component is the old way of writing code - uses javascript classes and Functional component is new way of writing code - uses javascript functions to create components.
+
+- A React Functional Component is a javascript function which returns JSX. We can also say that its a javascript function which returns a react element. The first letter of name of the component should always be capital. To render a component we need to wrap it in angular brackets like `<HeadingComponent/>`.
+
+- When we put a component inside a component it is called component composition and can be achieved by how we render a component.
